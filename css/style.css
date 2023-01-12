@@ -102,3 +102,34 @@ nav {
     align-items: center;
 
 }
+
+.btn-page-container {
+    width: 220px;
+    display: grid;
+    gap: 10px;
+}
+
+.btn {
+    border-radius: 4px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-blue {
+    background-color: #3483fa;
+    color: #ffff;
+}
+
+.btn-white {
+    background-color: #ffff;
+    color: #3483fa;
+    border: 1px solid #3483fa;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
